@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+h1,
+h2,
+h3 {
+  font-family: sofia-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+p {
+  font-family: sofia-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+a {
+  font-family: sofia-pro, sans-serif;
+  font-weight: 400;
+  color: #333333;
+  text-decoration: none;
+  line-height: 1.2;
+}
+a:hover {
+  text-decoration: underline;
+  font-weight: 400;
+  color: #f4d100;
+  line-height: 1.2;
+}
+header {
+  margin-bottom: 64px;
+  border-bottom: 3px solid #f2f2f2;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.menu {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 16px;
+  padding: 0 32px;
+}
+.menu-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(125px, 1fr));
+  list-style-type: none;
+  direction: rtl;
+}
+.menu-list li {
+  align-self: center;
+}
+.menu-list li a {
+  font-family: sofia-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.btn-solid {
+  display: inline-block;
+  color: #ffffff;
+  background: #333333;
+  padding: 10px 24px 12px;
+  border-radius: 24px;
+}
+.btn-solid:hover {
+  color: #333333;
+  background: #f4d100;
+  text-decoration: none;
+}
+.logo {
+  display: inline-block;
+  align-self: center;
+}
+.container {
+  margin: 16px auto 64px auto;
+  width: 90%;
+  max-width: 1024px;
+}
+.hero {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+.hero-content {
+  max-width: 320px;
+  padding-right: 32px;
+}
+.hero-content p {
+  margin: 16px 0;
+}
+.hero-content--affiliate {
+  max-width: 750px;
+  padding-right: 32px;
+}
+.hero-content--affiliate p {
+  margin: 16px 0;
+}
+.block-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 128px);
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  gap: 4px;
+}
+.item {
+  display: grid;
+  background: #f2f2f2;
+  text-align: center;
+  place-items: center;
+  width: 128px;
+  height: 128px;
+}
+
+.item:hover {
+  background: #f4d100;
+  color: #333333;
+  text-decoration: none;
+  font-weight: 400;
+}
+.title--small {
+  font-size: 12px;
+  font-family: sofia-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.title {
+  font-family: sofia-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.amd-5600 {
+  grid-column: 1/2;
+  grid-row: 1/1;
+}
+.nvidia-3090 {
+  grid-column: 4/5;
+  grid-row: 1/1;
+}
+.amd-6800 {
+  grid-column: 3/4;
+  grid-row: 2/2;
+}
+.nvidia-3080 {
+  grid-column: 2/3;
+  grid-row: 2/2;
+}
+.xbox-6 {
+  grid-column: 5/6;
+  grid-row: 2/2;
+}
+.nvidia-3070 {
+  grid-column: 1/2;
+  grid-row: 3/3;
+}
+.nvidia-3060 {
+  grid-column: 2/3;
+  grid-row: 3/3;
+}
+.amd-6900 {
+  grid-column: 4/5;
+  grid-row: 3/3;
+}
+.ps-5 {
+  grid-column: 5/6;
+  grid-row: 3/3;
+}
+footer {
+  border-top: 3px solid #f2f2f2;
+  padding: 16px;
+}
+.footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(512px, 1fr));
+  margin: 0 16px;
+}
+small {
+  margin-top: 32px;
+  color: #7e7e7e;
+  font-weight: 400;
+}
+.review {
+  margin-bottom: 64px;
+}
+.sub-menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
+  gap: 8px;
+  list-style: none;
+  padding: 16px 0;
+}
+.sub-menu svg {
+  height: 14px;
+}
+@media all and (max-width: 501px) {
+  header {
+    margin-bottom: 32px;
+  }
+  .menu {
+    grid-template-columns: 1fr 1fr;
+  }
+  .menu-list li {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .menu-list li:nth-child(2) {
+    margin-top: 8px;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .hero-content {
+    max-width: 500px;
+    margin-bottom: 32px;
+    padding-right: 0px;
+    text-align: center;
+  }
+  .block-grid {
+    grid-template-columns: repeat(auto-fill, minmax(128px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(128px, 1fr));
+  }
+  .item {
+    grid-column: auto;
+    grid-row: auto;
+    width: 100%;
+  }
+  .sub-menu {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
+    gap: 8px;
+    list-style: none;
+    padding: 32px 0;
+  }
+}
