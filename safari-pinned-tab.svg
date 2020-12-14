@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1040 1040" style="enable-background:new 0 0 1040 1040;" xml:space="preserve">
+<style type="text/css">
+	.st0{filter:url(#Adobe_OpacityMaskFilter);}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st2{mask:url(#mask-2_2_);fill-rule:evenodd;clip-rule:evenodd;fill:#F4D100;}
+</style>
+<g>
+	<g id="Group-3">
+		<g id="Clip-2">
+		</g>
+		<defs>
+			<filter id="Adobe_OpacityMaskFilter" filterUnits="userSpaceOnUse" x="30.5" y="156.2" width="980" height="726">
+				<feColorMatrix  type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1 0"/>
+			</filter>
+		</defs>
+		<mask maskUnits="userSpaceOnUse" x="30.5" y="156.2" width="980" height="726" id="mask-2_2_">
+			<g class="st0">
+				<polygon id="path-1_2_" class="st1" points="30.5,156.2 1010.5,156.2 1010.5,882.2 30.5,882.2 				"/>
+			</g>
+		</mask>
+		<path id="Fill-1" class="st2" d="M31.1,793l68-567.6c5.5-45.8,52.4-77.4,100.9-67.3c159.1,32.9,494.2,33,655.3,0.5
+			c49.3-9.9,96.6,22.5,101,69.1l53.9,567.1c4.4,47-35.5,87.4-86.3,87.4H117.2C65.5,882.2,25.4,840.6,31.1,793"/>
+	</g>
+	<path id="Fill-4" class="st1" d="M440.6,377.5H275v120.3h122.9c24.8,0,44.9,19.8,44.9,44.2c0,24.4-20.1,44.2-44.9,44.2H275v151.2
+		c0,27.8-22.9,50.4-51.2,50.4s-51.2-22.6-51.2-50.4V358.8c0-39,32-70.5,71.6-70.5h197.1c24.8,0,44.9,19.8,44.9,44.2
+		C486.3,357.3,465.9,377.5,440.6,377.5"/>
+	<path id="Fill-6" class="st1" d="M898.6,624.7c0,105.8-87.6,171.8-187.7,171.8c-51.5,0-104.1-21.1-141.1-54.8
+		c-21.2-19.2-17.5-53.2,6.4-69c17.4-11.4,40.3-9.3,55.8,4.6c20.4,18.3,48.9,30,74.6,30c55.2,0,94.2-34.8,94.2-83.4
+		c0-46.4-37.5-79.8-89.1-79.8c-37.5,0-76.5,17.4-106,42.8l-56.7-35.5l42-239.3h229.7c24.8,0,44.9,19.8,44.9,44.2
+		c0,24.4-20.1,44.2-44.9,44.2H671.1L652,492c43.3-30.3,118.3-39.6,179.9,1.5C875.6,522.6,898.6,572.8,898.6,624.7"/>
+</g>
+</svg>
