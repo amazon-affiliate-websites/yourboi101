@@ -190,33 +190,45 @@
       .sub-menu svg {
         height: 14px;
       }
-      @media all and (max-width: 376px) {
+      @media all and (max-width: 501px) {
         header {
           margin-bottom: 32px;
         }
         .menu {
           grid-template-columns: 1fr 1fr;
         }
+        .menu-list li {
+          font-size: 14px;
+          font-weight: 600;
+        }
+        .menu-list li:nth-child(2) {
+          margin-top: 8px;
+        }
+        .hero {
+          grid-template-columns: 1fr;
+        }
         .hero-content {
+          max-width: 500px;
           margin-bottom: 32px;
           padding-right: 0px;
           text-align: center;
-        }
-        .block-grid {
-          grid-template-columns: repeat(auto-fill, minmax(128px, 1fr));
-          grid-template-rows: repeat(auto-fill, minmax(128px, 1fr));
-        }
-        .item {
-          grid-column: auto;
-          grid-row: auto;
-          width: 100%;
-        }
-        .sub-menu {
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
-          gap: 8px;
-          list-style: none;
-          padding: 32px 0;
+          }
+          .block-grid {
+            grid-template-columns: repeat(auto-fill, minmax(128px, 1fr));
+            grid-template-rows: repeat(auto-fill, minmax(128px, 1fr));
+          }
+          .item {
+            grid-column: auto;
+            grid-row: auto;
+            width: 100%;
+          }
+          .sub-menu {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
+            gap: 8px;
+            list-style: none;
+            padding: 32px 0;
+          }
         }
       }
     </style>
