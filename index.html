@@ -134,7 +134,13 @@
         <a class="btn-solid" href="https://t.me/rtx_alerts">Sign-up</a>
       </div>
       <div class="block-grid">
-        <a class="item amd-5600" href="#ryzen" onclick="gtag('send', 'event', 'FAQ', 'click', 'AMD 5600', 'eventvalue');">
+        <a class="item amd-5600" href="#ryzen"
+        onclick="gtag('event', 'click', {
+          'event_category': 'outbound',
+          'event_label': url,
+          'transport_type': 'beacon',
+          'event_callback': function(){document.location = url;}
+        });">
           
           <div>
             <span class="title--small">AMD</span><br />
